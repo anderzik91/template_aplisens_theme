@@ -125,3 +125,7 @@ custom Css styles
   margin-bottom: 0;
   font-weight: bold;
 }
+
+#mainMenu nav > ul > li .dropdown-menu {
+  min-width: 300px;
+}
