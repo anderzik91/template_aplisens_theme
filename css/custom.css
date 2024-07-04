@@ -130,12 +130,26 @@ custom Css styles
   min-width: 300px;
 }
 
-.team-member:hover,
-.product:hover {
+.team-member:hover, .product:hover {
   box-shadow: 0px 0px 8px #a6a5a3 !important;
+  background: #fff;
 }
 
 .product-title,
 .product-category {
   padding: 0 15px;
+}
+
+.widget-title img {
+  width: 300px;
+}
+
+.widget-title {
+  font-weight: 900 !important;
+}
+
+.menu-img {
+  width: 250px;
+  float: right;
+  margin-bottom: -41px;
 }
