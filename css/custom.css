@@ -4,6 +4,17 @@ custom Css styles
 
 */
 
+p {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.7;
+  letter-spacing: 0;
+  color: #3c4043;
+  font-family: "Jura", sans-serif !important;
+}
+
 #mainMenu nav > ul > li > a {
   position: relative;
   font-family: "Jura", sans-serif;
@@ -152,4 +163,24 @@ custom Css styles
   width: 250px;
   float: right;
   margin-bottom: -41px;
+}
+
+
+.mt-15 {
+  padding-top: 30px;
+}
+
+.grid-item .product {
+  padding-bottom: 15px;
+}
+
+.grid-5-columns .product .product-reviews, .grid-5-columns .product .product-reviews a {
+  float: right;
+  padding-right: 5px;
+}
+
+.download_cat {
+  font-size: 18px;
+  color: #fbd03c;
+  margin-left: 15px;
 }
