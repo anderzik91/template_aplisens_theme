@@ -15,6 +15,38 @@ p {
   font-family: "Jura", sans-serif !important;
 }
 
+
+.form-select {
+    font-family: 'Jura', sans-serif !important;
+    cursor: pointer;
+}
+
+/* Застосування стилів для кожної опції */
+.custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.form-select {
+    font-family: 'Jura', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.form-select option {
+    font-family: 'Jura', sans-serif;
+}
+
+
 #mainMenu nav > ul > li > a {
   position: relative;
   font-family: "Jura", sans-serif;
@@ -183,4 +215,8 @@ p {
   font-size: 18px;
   color: #fbd03c;
   margin-left: 15px;
+}
+
+.form-select {
+  cursor: pointer;
 }
