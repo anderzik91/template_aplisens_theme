@@ -220,3 +220,92 @@ p {
 .form-select {
   cursor: pointer;
 }
+
+.box-fancy.section-fullwidth.text-light.p-b-0 {
+  padding-top: 0;
+}
+
+.col-lg-6.col_bl h3,
+.col-lg-6.col_bl span {
+  color: #000 !important;
+}
+.col-lg-6.col_bl span {
+  font-size: 15px!important;
+}
+
+.col-lg-12.fs-15 p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.parallax-container {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat !important;
+  background-size: 100% !important;
+  background-position: top center !important;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+
+.clb h1 {
+  color: #333 !important;
+}
+
+.breadcrumb.clb li,
+.breadcrumb.clb li a{
+  color: #333 !important;
+}
+
+.bg_img div {
+  background-position: bottom center !important;
+}
+
+.bg_img{
+  padding: 200px 0!important;
+}
+
+.bg_img_center div {
+  background-position: bottom center !important;
+}
+
+
+#home_head .parallax-container.img-loaded {
+  background-position: bottom !important;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.float-r {
+  float: right;
+}
+
+button.btn, .btn:not(.close):not(.mfp-close), a.btn:not([href]):not([tabindex]) {
+  display: inline-block;
+  font-family: inherit;
+  border-radius: 0.42rem 0.42rem 0.42rem 0.42rem;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  text-decoration: none;
+  outline: none;
+  padding: 6px 30px;
+  position: relative;
+  text-transform: uppercase;
+  background-color: #2250fc;
+  border-color: #2250fc;
+  border-width: 1px;
+  border-style: solid;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 0;
+  outline: none;
+  line-height: 14px;
+  cursor: pointer;
+}
