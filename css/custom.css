@@ -309,3 +309,7 @@ button.btn, .btn:not(.close):not(.mfp-close), a.btn:not([href]):not([tabindex]) 
   line-height: 14px;
   cursor: pointer;
 }
+
+.bg_img_cent div {
+  background-position: center center !important;
+}
