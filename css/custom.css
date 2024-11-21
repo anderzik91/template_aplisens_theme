@@ -313,3 +313,24 @@ button.btn, .btn:not(.close):not(.mfp-close), a.btn:not([href]):not([tabindex]) 
 .bg_img_cent div {
   background-position: center center !important;
 }
+
+
+.activity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.activity-grid article {
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.activity-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
