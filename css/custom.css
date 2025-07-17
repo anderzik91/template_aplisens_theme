@@ -334,3 +334,42 @@ button.btn, .btn:not(.close):not(.mfp-close), a.btn:not([href]):not([tabindex]) 
     border-radius: 10px;
     margin-bottom: 15px;
 }
+
+
+.seperator {
+  margin: 5px 0 10px 0;
+}
+
+.background-blackx {
+  background: #626262;
+}
+.icon-box.clean .icon i {
+  background-color: none;
+  color: #fff;
+  font-size: 50px;
+}
+.icon-box.effect.small.clean h3,
+.icon-box.effect.small.clean p {
+  color: #fff;
+}
+.product-title h3 a {
+  color: #333;
+  font-weight: 600;
+}
+button.btn.btn-primary, .btn:not(.close):not(.mfp-close).btn-primary, a.btn:not([href]):not([tabindex]).btn-primary {
+  background-color: #fbd03c;
+  border-color: #333;
+  color: #333;
+}
+.img_pses {
+  width: 100%;
+}
+.widget .widget-title, .widget > h4 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
